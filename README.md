@@ -40,6 +40,7 @@ El sistema se organiza en módulos internos bien delimitados (`auth`, `challenge
 ## Estado del Proyecto y Roadmap
 
 * [x] Diseño conceptual de arquitectura monolítica modular.
+* [x] Diseño conceptual de la base de datos.
 * [x] Configuración inicial del proyecto con Gradle y Spring Boot.
 * [ ] Módulo `auth`: Registro, autenticación y manejo de JWT `[Falta implementar]`
 * [ ] Módulo `challenges`: CRUD de problemas y casos de prueba `[Falta implementar]`
