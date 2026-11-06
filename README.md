@@ -13,7 +13,9 @@ open-leetcode es una plataforma simplificada de programación competitiva e insp
 
 El sistema se organiza en módulos internos bien delimitados (`auth`, `challenges`, `submissions`), que se comunican únicamente mediante interfaces públicas o eventos en proceso. La ejecución y evaluación de código de los usuarios se delega a contenedores aislados de Docker para garantizar aislamiento y seguridad.
 
-![Diagrama de Arquitectura](./docs/monolito-modular.png) 
+![Diagrama de Arquitectura](./docs/monolito-modular.png)
+
+![Diagrama de Base de Datos](./docs/database.png)
 
 ---
 
