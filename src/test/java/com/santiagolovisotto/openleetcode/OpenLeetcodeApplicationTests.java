@@ -1,4 +1,4 @@
-package com.santiagolovisotto.open_leetcode;
+package com.santiagolovisotto.openleetcode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

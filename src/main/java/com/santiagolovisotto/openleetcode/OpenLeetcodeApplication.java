@@ -1,4 +1,4 @@
-package com.santiagolovisotto.open_leetcode;
+package com.santiagolovisotto.openleetcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
