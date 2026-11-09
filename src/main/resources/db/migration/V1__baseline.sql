@@ -1,0 +1,3 @@
+-- Baseline migration.
+-- The schema is built incrementally: each module adds its own tables
+-- in its own migration, starting with auth in Sprint 1.
