@@ -6,6 +6,7 @@
 
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.1.2+-6DB33F?logo=springboot)
+![CI](https://github.com/santiagolovisotto/open-leetcode/actions/workflows/ci.yml/badge.svg)
 ![Gradle](https://img.shields.io/badge/Gradle-Build-02303A?logo=gradle)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker)
@@ -128,7 +129,7 @@ src/main/java/com/santiagolovisotto/openleetcode/
 | Framework | Spring Boot 4.1.2 |
 | Build | Gradle |
 | Persistencia | PostgreSQL y Spring Data JPA |
-| Migraciones | Flyway o Liquibase (por definir en el Sprint 0) |
+| Migraciones | Flyway |
 | Ejecución aislada | Docker |
 | Pruebas | JUnit, Testcontainers y test de arquitectura |
 | CI | GitHub Actions |
@@ -160,12 +161,12 @@ Plan de trabajo en sprints (Scrum individual). Cada sprint entrega algo que func
 
 Tablero completo en Trello: https://trello.com/b/UNYvKcef
 
-**Progreso general:** 3 de 28 tareas completadas.
+**Progreso general:** 4 de 28 tareas completadas.
 
 
 | Sprint | Objetivo | Progreso |
 |---|---|---|
-| S0 | Fundaciones | 3/6 |
+| S0 | Fundaciones | 4/6 |
 | S1 | Módulo `auth` | 0/5 |
 | S2 | Módulo `challenges` | 0/5 |
 | S3 | Módulo `submissions` con ejecutor falso | 0/5 |
@@ -179,7 +180,7 @@ Esqueleto del proyecto, base de datos con Docker Compose, migraciones, test de a
 - [x] Esqueleto del proyecto y estructura de módulos (auth, challenges, submissions, shared)
 - [x] Docker Compose con PostgreSQL
 - [x] Migraciones configuradas (Flyway) con migración inicial
-- [ ] Test de arquitectura que verifique límites entre módulos y capas
+- [x] Test de arquitectura que verifique límites entre módulos y capas
 - [ ] CI con GitHub Actions (build + tests)
 - [ ] Endpoint de salud y README inicial
 
