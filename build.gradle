@@ -26,6 +26,10 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
 }
 
+tasks.named('bootJar') {
+	archiveFileName = 'app.jar'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }

@@ -1,13 +1,12 @@
 services:
   db:
     image: postgres:17-alpine
-    container_name: openleetcode-db
     environment:
       POSTGRES_DB: openleetcode
       POSTGRES_USER: ${DB_USER:-openleetcode}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-openleetcode}
     ports:
-      - "5432:5432"
+      - "${DB_PORT:-5433}:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
     healthcheck:
@@ -15,6 +14,18 @@ services:
       interval: 5s
       timeout: 3s
       retries: 10
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/openleetcode
+      DB_USER: ${DB_USER:-openleetcode}
+      DB_PASSWORD: ${DB_PASSWORD:-openleetcode}
+    ports:
+      - "${APP_PORT:-8080}:8080"
 
 volumes:
   db-data:
