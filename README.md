@@ -160,12 +160,12 @@ Plan de trabajo en sprints (Scrum individual). Cada sprint entrega algo que func
 
 Tablero completo en Trello: https://trello.com/b/UNYvKcef
 
-**Progreso general:** 2 de 28 tareas completadas.
+**Progreso general:** 3 de 28 tareas completadas.
 
 
 | Sprint | Objetivo | Progreso |
 |---|---|---|
-| S0 | Fundaciones | 2/6 |
+| S0 | Fundaciones | 3/6 |
 | S1 | Módulo `auth` | 0/5 |
 | S2 | Módulo `challenges` | 0/5 |
 | S3 | Módulo `submissions` con ejecutor falso | 0/5 |
@@ -178,7 +178,7 @@ Esqueleto del proyecto, base de datos con Docker Compose, migraciones, test de a
 
 - [x] Esqueleto del proyecto y estructura de módulos (auth, challenges, submissions, shared)
 - [x] Docker Compose con PostgreSQL
-- [ ] Migraciones configuradas (Flyway o Liquibase) con migración inicial
+- [x] Migraciones configuradas (Flyway) con migración inicial
 - [ ] Test de arquitectura que verifique límites entre módulos y capas
 - [ ] CI con GitHub Actions (build + tests)
 - [ ] Endpoint de salud y README inicial
