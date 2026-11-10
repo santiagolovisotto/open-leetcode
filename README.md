@@ -7,7 +7,7 @@
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.1.2+-6DB33F?logo=springboot)
 ![CI](https://github.com/santiagolovisotto/open-leetcode/actions/workflows/ci.yml/badge.svg)
-[![Updated](https://img.shields.io/github/last-commit/santiagolovisotto/open-leetcode?logo=git&logoColor=A6E3A1&label=UPDATED&labelColor=181825&color=A6E3A1)](https://github.com/santiagolovisotto/open-leetcode/commits/main)
+[![Updated](https://img.shields.io/github/last-commit/santiagolovisotto/open-leetcode?logo=git&logoColor=A6E3A1&label=UPDATED)](https://github.com/santiagolovisotto/open-leetcode/commits/main)
 ![Gradle](https://img.shields.io/badge/Gradle-Build-02303A?logo=gradle)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker)
